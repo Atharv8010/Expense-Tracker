@@ -1,0 +1,155 @@
+.expense-list {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.expense-list h3 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.4rem;
+}
+
+.expense-list-empty {
+  background: white;
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.expense-list-empty p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.expenses-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.expense-card {
+  border: 2px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 1.25rem;
+  transition: all 0.3s ease;
+  background: #fafafa;
+}
+
+.expense-card:hover {
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+  transform: translateY(-2px);
+}
+
+.expense-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.expense-category {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.category-emoji {
+  font-size: 1.5rem;
+}
+
+.category-name {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.expense-amount {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.expense-body {
+  margin-bottom: 1rem;
+}
+
+.expense-title {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.expense-date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.expense-notes {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.expense-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.btn-icon {
+  flex: 1;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.btn-edit {
+  background: #f0f7ff;
+  color: #2563eb;
+  border: 1px solid #93c5fd;
+}
+
+.btn-edit:hover {
+  background: #dbeafe;
+  transform: translateY(-1px);
+}
+
+.btn-delete {
+  background: #fff1f2;
+  color: #dc2626;
+  border: 1px solid #fecaca;
+}
+
+.btn-delete:hover {
+  background: #fee2e2;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .expense-list {
+    padding: 1.5rem;
+  }
+
+  .expense-amount {
+    font-size: 1.2rem;
+  }
+
+  .expense-actions {
+    flex-direction: column;
+  }
+}
