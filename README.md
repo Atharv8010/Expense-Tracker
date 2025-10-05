@@ -59,11 +59,9 @@ It helps you keep track of your daily expenses, manage categories, and view your
 
 ## 📸 Screenshot
 
-*(Optional – you can add one or two screenshots if you like)*
+![App Screenshot](./assets/images/Screenshot01.png)
+![App Screenshot](./assets/images/Screenshot02.png)
 
-```markdown
-![App Screenshot](./assets/images/screenshot.png)
-```
 
 ---
 
