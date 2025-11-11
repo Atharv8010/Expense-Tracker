@@ -1,19 +1,38 @@
-# dependencies
+# Node dependencies
 node_modules/
 
-# environment
+# Environment variables
 .env
+.env.*
 
-# logs
-*.log
+# Logs
 logs/
+*.log
 npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 
-# system files
+# OS-specific files
 .DS_Store
 Thumbs.db
 
-# temporary
+# Temporary files
 *.tmp
-temp/
-tmp/
+*.temp
+*.bak
+*.swp
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.iml
+
+# Build or output folders (if you ever add them)
+dist/
+build/
+coverage/
+.cache/
+
+# Other common junk
+*.local
+*.seed
