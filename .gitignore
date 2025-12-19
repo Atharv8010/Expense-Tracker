@@ -1,6 +1,6 @@
 # Ignore Node dependencies
-node_modules
-build
+/node_modules
+build/
 .env
 
 # Environment files
